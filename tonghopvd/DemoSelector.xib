@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoSelector">
+            <connections>
+                <outlet property="slider" destination="7or-vL-KUh" id="vEl-A4-PnY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7or-vL-KUh">
+                    <rect key="frame" x="25" y="81" width="550" height="31"/>
+                    <animations/>
+                </slider>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buS-TJ-bch">
+                    <rect key="frame" x="262" y="275" width="86" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Crunch Data"/>
+                    <connections>
+                        <action selector="onCrunchData:" destination="-1" eventType="touchUpInside" id="d0V-4i-wOl"/>
+                    </connections>
+                </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppn-uZ-Lyc">
+                    <rect key="frame" x="276" y="428" width="51" height="31"/>
+                    <animations/>
+                    <connections>
+                        <action selector="onSwitch:" destination="-1" eventType="valueChanged" id="gl2-2f-Fh8"/>
+                    </connections>
+                </switch>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="buS-TJ-bch" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Htt-OK-4zU"/>
+                <constraint firstItem="7or-vL-KUh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="27" id="VxD-gM-mrW"/>
+                <constraint firstAttribute="trailing" secondItem="7or-vL-KUh" secondAttribute="trailing" constant="27" id="ZB1-iw-2vh"/>
+                <constraint firstItem="buS-TJ-bch" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZVb-5p-Zqq"/>
+                <constraint firstItem="ppn-uZ-Lyc" firstAttribute="top" secondItem="buS-TJ-bch" secondAttribute="bottom" constant="123" id="cwU-Zx-tPg"/>
+                <constraint firstItem="7or-vL-KUh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="oU7-Ys-4KA"/>
+                <constraint firstItem="buS-TJ-bch" firstAttribute="top" secondItem="7or-vL-KUh" secondAttribute="bottom" constant="164" id="puJ-6F-ARP"/>
+                <constraint firstItem="7or-vL-KUh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="81" id="vcc-3m-Dz8"/>
+                <constraint firstItem="ppn-uZ-Lyc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vpu-Ay-QOn"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

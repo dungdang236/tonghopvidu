@@ -7,24 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2144221C0117F900117C92 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2144201C0117F900117C92 /* DemoSelector.m */; settings = {ASSET_TAGS = (); }; };
+		3F2144231C0117F900117C92 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2144211C0117F900117C92 /* DemoSelector.xib */; settings = {ASSET_TAGS = (); }; };
 		3F45903B1BFFCD5C00248B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45903A1BFFCD5C00248B72 /* main.m */; };
-		3F45903E1BFFCD5C00248B72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45903D1BFFCD5C00248B72 /* AppDelegate.m */; };
-		3F4590411BFFCD5C00248B72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4590401BFFCD5C00248B72 /* ViewController.m */; };
-		3F4590441BFFCD5C00248B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4590421BFFCD5C00248B72 /* Main.storyboard */; };
 		3F4590461BFFCD5C00248B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4590451BFFCD5C00248B72 /* Assets.xcassets */; };
 		3F4590491BFFCD5C00248B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4590471BFFCD5C00248B72 /* LaunchScreen.storyboard */; };
-		3F4590541BFFCD5C00248B72 /* tonghopvdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4590531BFFCD5C00248B72 /* tonghopvdTests.m */; };
 		3F45905F1BFFCD5C00248B72 /* tonghopvdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45905E1BFFCD5C00248B72 /* tonghopvdUITests.m */; };
+		3F4590751BFFCE1800248B72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45906E1BFFCE1800248B72 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		3F4590761BFFCE1800248B72 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4590701BFFCE1800248B72 /* BootLogic.m */; settings = {ASSET_TAGS = (); }; };
+		3F4590771BFFCE1800248B72 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4590721BFFCE1800248B72 /* ConsoleScreen.m */; settings = {ASSET_TAGS = (); }; };
+		3F4590781BFFCE1800248B72 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4590741BFFCE1800248B72 /* MainScreen.m */; settings = {ASSET_TAGS = (); }; };
+		3F45907E1BFFD14700248B72 /* BasicA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45907A1BFFD14700248B72 /* BasicA.m */; settings = {ASSET_TAGS = (); }; };
+		3F45907F1BFFD14700248B72 /* BasicB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45907C1BFFD14700248B72 /* BasicB.m */; settings = {ASSET_TAGS = (); }; };
+		3F4590801BFFD14700248B72 /* BasicB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F45907D1BFFD14700248B72 /* BasicB.xib */; settings = {ASSET_TAGS = (); }; };
+		3F4590C31BFFDC4900248B72 /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4590C21BFFDC4900248B72 /* DemoFunction.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F4590501BFFCD5C00248B72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3F45902E1BFFCD5B00248B72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F4590351BFFCD5C00248B72;
-			remoteInfo = tonghopvd;
-		};
 		3F45905B1BFFCD5C00248B72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F45902E1BFFCD5B00248B72 /* Project object */;
@@ -35,33 +34,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F21441F1C0117F900117C92 /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
+		3F2144201C0117F900117C92 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
+		3F2144211C0117F900117C92 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
 		3F4590361BFFCD5C00248B72 /* tonghopvd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tonghopvd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F45903A1BFFCD5C00248B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F45903C1BFFCD5C00248B72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3F45903D1BFFCD5C00248B72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F45903F1BFFCD5C00248B72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F4590401BFFCD5C00248B72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3F4590431BFFCD5C00248B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F4590451BFFCD5C00248B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F4590481BFFCD5C00248B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F45904A1BFFCD5C00248B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F45904F1BFFCD5C00248B72 /* tonghopvdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tonghopvdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F4590531BFFCD5C00248B72 /* tonghopvdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tonghopvdTests.m; sourceTree = "<group>"; };
-		3F4590551BFFCD5C00248B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F45905A1BFFCD5C00248B72 /* tonghopvdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tonghopvdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F45905E1BFFCD5C00248B72 /* tonghopvdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tonghopvdUITests.m; sourceTree = "<group>"; };
 		3F4590601BFFCD5C00248B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F45906D1BFFCE1800248B72 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../../Downloads/Bootstrap-master/TechmasterApp/AppDelegate.h"; sourceTree = "<group>"; };
+		3F45906E1BFFCE1800248B72 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../../Downloads/Bootstrap-master/TechmasterApp/AppDelegate.m"; sourceTree = "<group>"; };
+		3F45906F1BFFCE1800248B72 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BootLogic.h; path = "../../../Downloads/Bootstrap-master/TechmasterApp/BootLogic.h"; sourceTree = "<group>"; };
+		3F4590701BFFCE1800248B72 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BootLogic.m; path = "../../../Downloads/Bootstrap-master/TechmasterApp/BootLogic.m"; sourceTree = "<group>"; };
+		3F4590711BFFCE1800248B72 /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsoleScreen.h; path = "../../../Downloads/Bootstrap-master/TechmasterApp/ConsoleScreen.h"; sourceTree = "<group>"; };
+		3F4590721BFFCE1800248B72 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConsoleScreen.m; path = "../../../Downloads/Bootstrap-master/TechmasterApp/ConsoleScreen.m"; sourceTree = "<group>"; };
+		3F4590731BFFCE1800248B72 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScreen.h; path = "../../../Downloads/Bootstrap-master/TechmasterApp/MainScreen.h"; sourceTree = "<group>"; };
+		3F4590741BFFCE1800248B72 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScreen.m; path = "../../../Downloads/Bootstrap-master/TechmasterApp/MainScreen.m"; sourceTree = "<group>"; };
+		3F4590791BFFD14700248B72 /* BasicA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicA.h; path = "../../../Downloads/Bootstrap-master/TechmasterApp/BasicA.h"; sourceTree = "<group>"; };
+		3F45907A1BFFD14700248B72 /* BasicA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicA.m; path = "../../../Downloads/Bootstrap-master/TechmasterApp/BasicA.m"; sourceTree = "<group>"; };
+		3F45907B1BFFD14700248B72 /* BasicB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicB.h; path = "../../../Downloads/Bootstrap-master/TechmasterApp/BasicB.h"; sourceTree = "<group>"; };
+		3F45907C1BFFD14700248B72 /* BasicB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicB.m; path = "../../../Downloads/Bootstrap-master/TechmasterApp/BasicB.m"; sourceTree = "<group>"; };
+		3F45907D1BFFD14700248B72 /* BasicB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BasicB.xib; path = "../../../Downloads/Bootstrap-master/TechmasterApp/BasicB.xib"; sourceTree = "<group>"; };
+		3F4590C11BFFDC4900248B72 /* DemoFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFunction.h; sourceTree = "<group>"; };
+		3F4590C21BFFDC4900248B72 /* DemoFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFunction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3F4590331BFFCD5C00248B72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45904C1BFFCD5C00248B72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				3F4590381BFFCD5C00248B72 /* tonghopvd */,
-				3F4590521BFFCD5C00248B72 /* tonghopvdTests */,
 				3F45905D1BFFCD5C00248B72 /* tonghopvdUITests */,
 				3F4590371BFFCD5C00248B72 /* Products */,
 			);
@@ -92,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				3F4590361BFFCD5C00248B72 /* tonghopvd.app */,
-				3F45904F1BFFCD5C00248B72 /* tonghopvdTests.xctest */,
 				3F45905A1BFFCD5C00248B72 /* tonghopvdUITests.xctest */,
 			);
 			name = Products;
@@ -101,11 +101,8 @@
 		3F4590381BFFCD5C00248B72 /* tonghopvd */ = {
 			isa = PBXGroup;
 			children = (
-				3F45903C1BFFCD5C00248B72 /* AppDelegate.h */,
-				3F45903D1BFFCD5C00248B72 /* AppDelegate.m */,
-				3F45903F1BFFCD5C00248B72 /* ViewController.h */,
-				3F4590401BFFCD5C00248B72 /* ViewController.m */,
-				3F4590421BFFCD5C00248B72 /* Main.storyboard */,
+				3F45906C1BFFCDE500248B72 /* core */,
+				3F4590C01BFFDBD800248B72 /* basic */,
 				3F4590451BFFCD5C00248B72 /* Assets.xcassets */,
 				3F4590471BFFCD5C00248B72 /* LaunchScreen.storyboard */,
 				3F45904A1BFFCD5C00248B72 /* Info.plist */,
@@ -122,15 +119,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3F4590521BFFCD5C00248B72 /* tonghopvdTests */ = {
-			isa = PBXGroup;
-			children = (
-				3F4590531BFFCD5C00248B72 /* tonghopvdTests.m */,
-				3F4590551BFFCD5C00248B72 /* Info.plist */,
-			);
-			path = tonghopvdTests;
-			sourceTree = "<group>";
-		};
 		3F45905D1BFFCD5C00248B72 /* tonghopvdUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +126,38 @@
 				3F4590601BFFCD5C00248B72 /* Info.plist */,
 			);
 			path = tonghopvdUITests;
+			sourceTree = "<group>";
+		};
+		3F45906C1BFFCDE500248B72 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				3F4590791BFFD14700248B72 /* BasicA.h */,
+				3F45907A1BFFD14700248B72 /* BasicA.m */,
+				3F45907B1BFFD14700248B72 /* BasicB.h */,
+				3F45907C1BFFD14700248B72 /* BasicB.m */,
+				3F45907D1BFFD14700248B72 /* BasicB.xib */,
+				3F45906D1BFFCE1800248B72 /* AppDelegate.h */,
+				3F45906E1BFFCE1800248B72 /* AppDelegate.m */,
+				3F45906F1BFFCE1800248B72 /* BootLogic.h */,
+				3F4590701BFFCE1800248B72 /* BootLogic.m */,
+				3F4590711BFFCE1800248B72 /* ConsoleScreen.h */,
+				3F4590721BFFCE1800248B72 /* ConsoleScreen.m */,
+				3F4590731BFFCE1800248B72 /* MainScreen.h */,
+				3F4590741BFFCE1800248B72 /* MainScreen.m */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		3F4590C01BFFDBD800248B72 /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				3F4590C11BFFDC4900248B72 /* DemoFunction.h */,
+				3F4590C21BFFDC4900248B72 /* DemoFunction.m */,
+				3F21441F1C0117F900117C92 /* DemoSelector.h */,
+				3F2144201C0117F900117C92 /* DemoSelector.m */,
+				3F2144211C0117F900117C92 /* DemoSelector.xib */,
+			);
+			name = basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,24 +179,6 @@
 			productName = tonghopvd;
 			productReference = 3F4590361BFFCD5C00248B72 /* tonghopvd.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3F45904E1BFFCD5C00248B72 /* tonghopvdTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F4590661BFFCD5C00248B72 /* Build configuration list for PBXNativeTarget "tonghopvdTests" */;
-			buildPhases = (
-				3F45904B1BFFCD5C00248B72 /* Sources */,
-				3F45904C1BFFCD5C00248B72 /* Frameworks */,
-				3F45904D1BFFCD5C00248B72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F4590511BFFCD5C00248B72 /* PBXTargetDependency */,
-			);
-			name = tonghopvdTests;
-			productName = tonghopvdTests;
-			productReference = 3F45904F1BFFCD5C00248B72 /* tonghopvdTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3F4590591BFFCD5C00248B72 /* tonghopvdUITests */ = {
 			isa = PBXNativeTarget;
@@ -208,10 +210,6 @@
 					3F4590351BFFCD5C00248B72 = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					3F45904E1BFFCD5C00248B72 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 3F4590351BFFCD5C00248B72;
-					};
 					3F4590591BFFCD5C00248B72 = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 3F4590351BFFCD5C00248B72;
@@ -232,7 +230,6 @@
 			projectRoot = "";
 			targets = (
 				3F4590351BFFCD5C00248B72 /* tonghopvd */,
-				3F45904E1BFFCD5C00248B72 /* tonghopvdTests */,
 				3F4590591BFFCD5C00248B72 /* tonghopvdUITests */,
 			);
 		};
@@ -245,14 +242,8 @@
 			files = (
 				3F4590491BFFCD5C00248B72 /* LaunchScreen.storyboard in Resources */,
 				3F4590461BFFCD5C00248B72 /* Assets.xcassets in Resources */,
-				3F4590441BFFCD5C00248B72 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45904D1BFFCD5C00248B72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3F4590801BFFD14700248B72 /* BasicB.xib in Resources */,
+				3F2144231C0117F900117C92 /* DemoSelector.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,17 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F4590411BFFCD5C00248B72 /* ViewController.m in Sources */,
-				3F45903E1BFFCD5C00248B72 /* AppDelegate.m in Sources */,
+				3F45907E1BFFD14700248B72 /* BasicA.m in Sources */,
+				3F45907F1BFFD14700248B72 /* BasicB.m in Sources */,
+				3F4590761BFFCE1800248B72 /* BootLogic.m in Sources */,
+				3F4590781BFFCE1800248B72 /* MainScreen.m in Sources */,
+				3F4590C31BFFDC4900248B72 /* DemoFunction.m in Sources */,
+				3F2144221C0117F900117C92 /* DemoSelector.m in Sources */,
+				3F4590771BFFCE1800248B72 /* ConsoleScreen.m in Sources */,
+				3F4590751BFFCE1800248B72 /* AppDelegate.m in Sources */,
 				3F45903B1BFFCD5C00248B72 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45904B1BFFCD5C00248B72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F4590541BFFCD5C00248B72 /* tonghopvdTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +284,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F4590511BFFCD5C00248B72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3F4590351BFFCD5C00248B72 /* tonghopvd */;
-			targetProxy = 3F4590501BFFCD5C00248B72 /* PBXContainerItemProxy */;
-		};
 		3F45905C1BFFCD5C00248B72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3F4590351BFFCD5C00248B72 /* tonghopvd */;
@@ -308,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F4590421BFFCD5C00248B72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F4590431BFFCD5C00248B72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F4590471BFFCD5C00248B72 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,30 +405,6 @@
 			};
 			name = Release;
 		};
-		3F4590671BFFCD5C00248B72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = tonghopvdTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = techmaster.tonghopvdTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonghopvd.app/tonghopvd";
-			};
-			name = Debug;
-		};
-		3F4590681BFFCD5C00248B72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = tonghopvdTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = techmaster.tonghopvdTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tonghopvd.app/tonghopvd";
-			};
-			name = Release;
-		};
 		3F45906A1BFFCD5C00248B72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -496,14 +448,7 @@
 				3F4590651BFFCD5C00248B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3F4590661BFFCD5C00248B72 /* Build configuration list for PBXNativeTarget "tonghopvdTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F4590671BFFCD5C00248B72 /* Debug */,
-				3F4590681BFFCD5C00248B72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F4590691BFFCD5C00248B72 /* Build configuration list for PBXNativeTarget "tonghopvdUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +457,7 @@
 				3F45906B1BFFCD5C00248B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
